@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.953,=\\server\UserData$\1194900\Desktop\курсач2\Unit9.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.103,C:\Users\onlue\Desktop\курсач2\Project2PCH1.h=C:\Users\onlue\Documents\Embarcadero\Studio\Projects\Project2PCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.527,=C:\Users\onlue\Documents\Embarcadero\Studio\Projects\Unit2.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.857,=C:\Users\onlue\Documents\Embarcadero\Studio\Projects\Unit2.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.272,=C:\Users\onlue\Desktop\курсач2\Unit5.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.300,C:\Users\onlue\Desktop\курсач2\Unit2.h=C:\Users\onlue\Documents\Embarcadero\Studio\Projects\Unit2.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.458,=C:\Users\onlue\Documents\Embarcadero\Studio\Projects\Project2PCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.755,=C:\Users\onlue\Documents\Embarcadero\Studio\Projects\Project2PCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.285,C:\Users\onlue\Desktop\курсач2\Project2.cbproj=C:\Users\onlue\Documents\Embarcadero\Studio\Projects\Project2.cbproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.893,=C:\Users\onlue\Desktop\курсач2\Unit4.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.653,=C:\Users\onlue\Desktop\курсач2\Unit8.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.383,C:\Users\onlue\Desktop\курсач2\Unit3.cpp=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.921,=C:\Users\onlue\Desktop\курсач2\Unit3.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.300,C:\Users\onlue\Desktop\курсач2\Unit2.cpp=C:\Users\onlue\Documents\Embarcadero\Studio\Projects\Unit2.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.904,=C:\Users\onlue\Desktop\курсач2\Unit6.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.065,=C:\Users\onlue\Desktop\курсач2\Unit7.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.701,=C:\Users\onlue\Desktop\курсач2\Unit3.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.335,=C:\Users\onlue\Desktop\курсач2\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.328,=C:\Users\onlue\Desktop\курсач2\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.300,C:\Users\onlue\Desktop\курсач2\Unit2.dfm=C:\Users\onlue\Documents\Embarcadero\Studio\Projects\Unit2.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.473,C:\Users\onlue\Desktop\курсач2\Unit3.cpp=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.607,=C:\Users\onlue\Desktop\курсач2\Unit3.cpp</Transaction>
+  </Transactions>
+	<ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="Project2.cpp"/>
+    <File Path="Project2PCH1.h"/>
+    <File Path="Unit2.cpp"/>
+    <File Path="Unit2.cpp"/>
+    <File Path="Unit2.dfm"/>
+    <File Path="Unit2.h"/>
+    <File Path="Unit1.cpp"/>
+    <File Path="Unit1.cpp"/>
+    <File Path="Unit1.dfm"/>
+    <File Path="Unit1.h"/>
+    <File Path="Unit3.cpp"/>
+    <File Path="Unit3.cpp"/>
+    <File Path="Unit3.dfm"/>
+    <File Path="Unit3.h"/>
+    <File Path="Unit4.cpp"/>
+    <File Path="Unit4.cpp"/>
+    <File Path="Unit4.dfm"/>
+    <File Path="Unit4.h"/>
+    <File Path="Unit5.cpp"/>
+    <File Path="Unit5.cpp"/>
+    <File Path="Unit5.dfm"/>
+    <File Path="Unit5.h"/>
+    <File Path="Unit6.cpp"/>
+    <File Path="Unit6.cpp"/>
+    <File Path="Unit6.dfm"/>
+    <File Path="Unit6.h"/>
+    <File Path="Unit7.cpp"/>
+    <File Path="Unit7.cpp"/>
+    <File Path="Unit7.dfm"/>
+    <File Path="Unit7.h"/>
+    <File Path="Unit8.cpp"/>
+    <File Path="Unit8.cpp"/>
+    <File Path="Unit8.dfm"/>
+    <File Path="Unit8.h"/>
+    <File Path="Unit9.cpp"/>
+    <File Path="Unit9.cpp"/>
+    <File Path="Unit9.dfm"/>
+    <File Path="Unit9.h"/>
+  </ProjectSortOrder>
+</BorlandProject>

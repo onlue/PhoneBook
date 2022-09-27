@@ -1,0 +1,41 @@
+//---------------------------------------------------------------------------
+
+#include <vcl.h>
+#pragma hdrstop
+#include "Unit2.h"
+
+#include "Unit9.h"
+//---------------------------------------------------------------------------
+#pragma package(smart_init)
+#pragma resource "*.dfm"
+TForm9 *Form9;
+//---------------------------------------------------------------------------
+__fastcall TForm9::TForm9(TComponent* Owner)
+	: TForm(Owner)
+{
+}
+//---------------------------------------------------------------------------
+void __fastcall TForm9::Panel1Click(TObject *Sender)
+{
+	if(Edit1->Text !=""){
+	Form2->ADOQuery2->Insert();
+	Form2->ADOQuery2->Fields->FieldByName("TimeNote")->AsString = TimePicker1->Time;
+	Form2->ADOQuery2->Fields->FieldByName("DateNote")->AsString = DatePicker1->Date;
+	Form2->ADOQuery2->Fields->FieldByName("Note")->AsString  = Edit1->Text;
+	Form2->ADOQuery2->Post();
+	Timer2->Enabled = true;
+	Label3->Visible = true;
+
+	//Добавить появление надписи успешно добавлено по таймеру(Через 2 секунды будет пропадать)
+	}
+}
+
+//---------------------------------------------------------------------------
+void __fastcall TForm9::Timer2Timer(TObject *Sender)
+{
+	Label3->Visible = false;
+	Timer2->Enabled = false;
+}
+//---------------------------------------------------------------------------
+
+

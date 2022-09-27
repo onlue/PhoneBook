@@ -1,0 +1,199 @@
+//---------------------------------------------------------------------------
+
+#include <vcl.h>
+#pragma hdrstop
+
+#include "Unit4.h"
+#include "Unit2.h"
+#include "Unit1.h"
+#include "Unit3.h"
+#include "Unit5.h"
+#include "Unit6.h"
+#include "Unit7.h"
+#include "Unit9.h"
+//---------------------------------------------------------------------------
+#pragma package(smart_init)
+#pragma resource "*.dfm"
+TForm4 *Form4;
+//---------------------------------------------------------------------------
+__fastcall TForm4::TForm4(TComponent* Owner)
+	: TForm(Owner)
+{
+}
+//---------------------------------------------------------------------------
+
+void __fastcall TForm4::ColorBox1Change(TObject *Sender)
+{
+	//Form1->Image2->Canvas->Brush->Color = ColorBox1->Selected;
+	//Form1->Image2->Canvas->FloodFill(70,140,clWhite,fsSurface);
+	//Form3->Image1->Canvas->Brush->Color = ColorBox1->Selected;
+	//Form3->Image1->Canvas->FloodFill(70,140,clWhite,fsSurface);
+	//Form2->Image1->Canvas->Brush->Color = ColorBox1->Selected;
+	//Form2->Image1->Canvas->FloodFill(70,140,clWhite,fsSurface);
+}
+//---------------------------------------------------------------------------
+
+
+
+void __fastcall TForm4::Panel1Click(TObject *Sender)
+{
+
+		//Image2->Picture->LoadFromFile("Theme1BG.png");
+		//Form3->Panel1->Font->Color = clWhite;
+		//Form3->Panel2->Font->Color = clWhite;
+		//Panel1->Font->Color = clWhite;
+		//Form2->Image1->Picture->LoadFromFile("Theme1BG.png");
+		//Form2->Label2->Font->Color = clWhite;
+		//Form2->DBCtrlGrid1->Color = clPurple;
+		//Form2->DBCtrlGrid1->SelectedColor = StringToColor("$00FF80FF");
+		//Form3->Image1->Picture->LoadFromFile("Theme1BG.png");                    //Для более быстрой перевести картинку в пнг
+		//Form1->Image1->Picture->LoadFromFile("Theme1BG.png");
+		//Form1->Label1->Font->Color = clWhite;
+		//Form1->Panel2->Font->Color = clWhite;
+		//Form1->Panel1->Font->Color = clWhite;
+		//Form5->Panel1->Font->Color = clWhite;
+		//Form5->Image1->Picture->LoadFromFile("Theme1BG.png");
+		//Form2->Panel2->Font->Color = clWhite;
+		//Form2->Panel1->Font->Color = clWhite;
+		//Form6->Label1->Font->Color = clWhite;
+		//Form6->Label2->Font->Color = clWhite;
+		//Form6->Image1->Picture->LoadFromFile("Theme1BG.png");
+		//Form6->Panel1->Font->Color = clWhite;
+		//Form2->Panel1->Color = clPurple;
+		//Form2->Panel2->Color = clPurple;
+		//Form7->Label1->Font->Color = clWhite;
+		//Form7->Label2->Font->Color = clWhite;
+		//Form7->Label3->Font->Color = clWhite;
+		//Form7->Label4->Font->Color = clWhite;
+		//Form7->Label5->Font->Color = clWhite;
+		//Form7->Label6->Font->Color = clWhite;
+		//Form7->Label7->Font->Color = clWhite;
+		//Form7->Label8->Font->Color = clWhite;
+		//Form7->Label9->Font->Color = clWhite;
+		//Form7->DBText1->Font->Color = clWhite;
+		//Form7->DBText2->Font->Color = clWhite;
+		//Form7->DBText3->Font->Color = clWhite;
+		//Form7->DBText4->Font->Color = clWhite;
+		//Form7->DBText5->Font->Color = clWhite;
+	   //	Form7->DBText6->Font->Color = clWhite;
+	   //	Form7->DBText7->Font->Color = clWhite;
+		//Form7->DBText8->Font->Color = clWhite;
+		//Form7->DBText9->Font->Color = clWhite;
+		//Form7->Image1->Picture->LoadFromFile("Theme1BG.png");
+
+
+
+}
+//---------------------------------------------------------------------------
+
+void __fastcall TForm4::Image1Click(TObject *Sender)
+{
+	Image2->Picture->LoadFromFile("Theme1BG.png");
+		Form3->Panel1->Font->Color = clWhite;
+		Form3->Panel2->Font->Color = clWhite;
+		Panel1->Font->Color = clWhite;
+		Form2->Image1->Picture->LoadFromFile("Theme1BG.png");
+		Form2->Label2->Font->Color = clWhite;
+		Form2->DBCtrlGrid1->Color = clPurple;
+		Form2->DBCtrlGrid1->SelectedColor = StringToColor("$00FF80FF");
+		Form3->Image1->Picture->LoadFromFile("Theme1BG.png");                    //Для более быстрой перевести картинку в пнг
+		Form1->Image1->Picture->LoadFromFile("Theme1BG.png");
+		Form1->Label1->Font->Color = clWhite;
+		Form1->Panel2->Font->Color = clWhite;
+		Form1->Panel1->Font->Color = clWhite;
+		Form5->Panel1->Font->Color = clWhite;
+		Form5->Image1->Picture->LoadFromFile("Theme1BG.png");
+		Form2->Panel2->Font->Color = clWhite;
+		Form2->Panel1->Font->Color = clWhite;
+		Form6->Label1->Font->Color = clWhite;
+		Form6->Label2->Font->Color = clWhite;
+		Form6->Image1->Picture->LoadFromFile("Theme1BG.png");
+		Form6->Panel1->Font->Color = clWhite;
+		Form2->Panel1->Color = clPurple;
+		Form2->Panel2->Color = clPurple;
+		Form7->Label1->Font->Color = clWhite;
+		Form7->Label2->Font->Color = clWhite;
+		Form7->Label3->Font->Color = clWhite;
+		Form7->Label4->Font->Color = clWhite;
+		Form7->Label5->Font->Color = clWhite;
+		Form7->Label6->Font->Color = clWhite;
+		Form7->Label7->Font->Color = clWhite;
+		Form7->Label8->Font->Color = clWhite;
+		Form7->Label9->Font->Color = clWhite;
+		Form7->DBText1->Font->Color = clWhite;
+		Form7->DBText2->Font->Color = clWhite;
+		Form7->DBText3->Font->Color = clWhite;
+		Form7->DBText4->Font->Color = clWhite;
+		Form7->DBText5->Font->Color = clWhite;
+		Form7->DBText6->Font->Color = clWhite;
+		Form7->DBText7->Font->Color = clWhite;
+		Form7->DBText8->Font->Color = clWhite;
+		Form7->DBText9->Font->Color = clWhite;
+		Form7->Image1->Picture->LoadFromFile("Theme1BG.png");
+		 Image3->Canvas->Brush->Color=clWhite;
+		Image3->Canvas->FloodFill(70,140,clWhite,fsSurface);
+		Image4->Canvas->Brush->Color=clWhite;
+		Image4->Canvas->FloodFill(70,140,clWhite,fsSurface);
+		Form9->Image1->Picture->LoadFromFile("Theme1BG.png");
+		Form9->Label1->Font->Color = clWhite;
+		Form9->Label2->Font->Color = clWhite;
+		Form9->Label3->Font->Color = clWhite;
+
+}
+//---------------------------------------------------------------------------
+
+void __fastcall TForm4::Image5Click(TObject *Sender)
+{
+		Image2->Picture->LoadFromFile("Theme2BG.png");
+		Form3->Panel1->Font->Color = clWhite;
+		Form3->Panel2->Font->Color = clWhite;
+		Panel1->Font->Color = clWhite;
+		Form2->Image1->Picture->LoadFromFile("Theme2BG.png");
+		Form2->Label2->Font->Color = clWhite;
+		Form2->DBCtrlGrid1->Color = clMaroon;
+		Form2->DBCtrlGrid1->SelectedColor = RGB(130,100,10);
+		Form3->Image1->Picture->LoadFromFile("Theme2BG.png");                    //Для более быстрой перевести картинку в пнг
+		Form1->Image1->Picture->LoadFromFile("Theme2BG.png");
+		Form1->Label1->Font->Color = clWhite;
+		Form1->Panel2->Font->Color = clWhite;
+		Form1->Panel1->Font->Color = clWhite;
+		Form5->Panel1->Font->Color = clWhite;
+		Form5->Image1->Picture->LoadFromFile("Theme2BG.png");
+		Form2->Panel2->Font->Color = clWhite;
+		Form2->Panel1->Font->Color = clWhite;
+		Form6->Label1->Font->Color = clWhite;
+		Form6->Label2->Font->Color = clWhite;
+		Form6->Image1->Picture->LoadFromFile("Theme2BG.png");
+		Form6->Panel1->Font->Color = clWhite;
+		Form2->Panel1->Color = clMaroon;
+		Form2->Panel2->Color = clMaroon;
+		Form7->Label1->Font->Color = clWhite;
+		Form7->Label2->Font->Color = clWhite;
+		Form7->Label3->Font->Color = clWhite;
+		Form7->Label4->Font->Color = clWhite;
+		Form7->Label5->Font->Color = clWhite;
+		Form7->Label6->Font->Color = clWhite;
+		Form7->Label7->Font->Color = clWhite;
+		Form7->Label8->Font->Color = clWhite;
+		Form7->Label9->Font->Color = clWhite;
+		Form7->DBText1->Font->Color = clWhite;
+		Form7->DBText2->Font->Color = clWhite;
+		Form7->DBText3->Font->Color = clWhite;
+		Form7->DBText4->Font->Color = clWhite;
+		Form7->DBText5->Font->Color = clWhite;
+		Form7->DBText6->Font->Color = clWhite;
+		Form7->DBText7->Font->Color = clWhite;
+		Form7->DBText8->Font->Color = clWhite;
+		Form7->DBText9->Font->Color = clWhite;
+		Form7->Image1->Picture->LoadFromFile("Theme2BG.png");
+		Image4->Canvas->Brush->Color=clWhite;
+		Image4->Canvas->FloodFill(70,140,clWhite,fsSurface);
+        Image3->Canvas->Brush->Color=clWhite;
+		Image3->Canvas->FloodFill(70,140,clWhite,fsSurface);
+        Form9->Image1->Picture->LoadFromFile("Theme2BG.png");
+		Form9->Label1->Font->Color = clWhite;
+		Form9->Label2->Font->Color = clWhite;
+		Form9->Label3->Font->Color = clWhite;
+}
+//---------------------------------------------------------------------------
+
